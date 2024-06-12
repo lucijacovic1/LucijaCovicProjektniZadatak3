@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+
+ul {		padding:20px; 
+			margin-left: auto; 
+			margin-right:auto;  
+			width: 300px;
+			} 
+
+	li {	display:inline;
+			background-color:lavender;
+			padding:20px;
+			border: 2px solid #E6E6FA;
+		}
+
+	li:active {background-color:dimgray;}
+	li, a {	color: black; 
+			font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; 
+			text-transform: capitalize;
+			}
+	li a:link {text-decoration: none;}
+	li a:hover {text-decoration:underline;}
+.pozadina {background-image: url("../dm12/sky-7232494_1920.jpg")}
+h1 {color: darkslateblue;
+font-family: LucijaCovic;}
+h2, h3 {font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: cornflowerblue;}
+p {font-size: 18px;
+color: black;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	line-height: 20px;
+	width: 600px;
+	padding: 20px}
